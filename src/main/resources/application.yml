@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: root
+    password: root
+    initialization-mode: always
+  h2:
+    console:
+      enabled: true

@@ -5,3 +5,5 @@ applications:
       - https://github.com/cloudfoundry/java-buildpack#v4.32
     env:
       JBP_CONFIG_OPEN_JDK_JRE: '{jre: {version: 14.+}}'
+    services:
+      - app-db
