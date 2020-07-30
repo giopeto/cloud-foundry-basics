@@ -1,0 +1,7 @@
+applications:
+  - name: cloud-foundry-basics
+    path: target/cloud-foundry-basics-0.0.1-SNAPSHOT.jar
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack#v4.32
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{jre: {version: 14.+}}'
